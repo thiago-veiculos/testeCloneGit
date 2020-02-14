@@ -10,8 +10,14 @@ int main(){
 
     x--;
 
-    printf("%d\n", x);
+    printf("> idade mudada:%d\n", x);
+    
+    x++;
+    
+    printf("> idade original: %d\n", x);
 
 
     return 0;
 }
+
+/////////////////////////////////////////
